@@ -1,7 +1,7 @@
 name: 'scan'
 on: [push]
 jobs:
-  scanning dependency:
+  scanning_dependency:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
